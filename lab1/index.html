@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<!--Создаем заголовок-->
+	<title>Laba one</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="smiley.css">
+	<style>
+		body {
+			font-style: italic;
+			background-color: lightyellow;
+		}
+
+		input[type="submit"],
+		input[type="reset"] {
+			background-color: blue;
+			color: white;
+			transition: background-color 0.3s ease, transform 0.3s ease;
+		}
+
+		input[type="submit"]:hover,
+		input[type="reset"]:hover {
+			background-color: green;
+			transform: scale(1.1);
+		}
+
+		th {
+			border: 1px solid black;
+		}
+	</style>
+
+</head>
+
+<body>
+	<header>
+		<h1>Hello world</h1>
+	</header>
+	<main>
+		<div class="why">
+			<!--Проверка тэгов div, span, br, mark, pre, time, details-->
+			<h2>Why so?</h2>
+			<p>Programmers use <span style="color:blue">"Hello, World!"</span>
+				As the first program in a new language, to make sure that the development environment is correct and the
+				code is compiled without errors.
+				<br>This is a simple way to check how the syntax of text output on the screen works.
+				It also became a tradition and a ritual in programming, symbolizing the beginning of studying a new
+				language.
+			</p>
+			<hr>
+			<p>The first program <span style="color:blue">"Hello, World!"</span> She appeared in the book “The C
+				Programming Language” (1978),
+				written by Brian Kernigan and Dennis Ritchi, creators of Code’s language. In the book, the code showed
+				how to bring the text on the screen,
+				and they chose the phrase <mark>“Hello, World!”</mark> Just because it was short and positive.
+				<br>Since then, this has become a tradition in programming.
+			</p>
+		</div>
+
+		<!--Pre сохраняет форматирование текста так, как указано внутри него-->
+		<div class="testPreAndTime">
+			<pre>
+				And this 	is 
+				Tag Pre 
+				test
+			</pre>
+			<p>Open from <time datetime="10:00">10:00</time> to <time datetime="21:00">21:00</time> every weekday.</p>
+		</div>
+
+		<!--Работа тэга details-->
+		<details>
+			<summary>Ave, Ave</summary>
+			<p>AVTF!</p>
+		</details>
+
+		<!--Ссылка на разницу span и div-->
+		<a href="test.html">Click!<br></a>
+		<a href="#top">Up</a>
+
+		<!--Изображения-->
+		<figure>
+			<img src="sth.jpg">
+			<figcaption>Figcaption</figcaption>
+		</figure>
+
+		<!--Таблицы-->
+		<div class="Tables">
+			<ol type="a" start="27">
+				<li>FirstElement</li>
+				<li>SecondElement</li>
+				<li>ThirdElement</li>
+				<li>FourthElement</li>
+			</ol>
+
+			<table style="border: 2px solid black;">
+				<tr>
+					<th>1</th>
+					<th colspan="2">2 & 3</th>
+				</tr>
+				<tr>
+					<th>4</th>
+					<th rowspan="2">6 & 9</th>
+					<th>7</th>
+				</tr>
+				<tr>
+					<th>5</th>
+					<th>8</th>
+				</tr>
+			</table>
+		</div>
+
+		<!--Форма-->
+		<div class="Form" style="margin-top: 20px;">
+			<label style="display: block;"><input type="checkbox" name="webProg" value="html"> HTML </label>
+			<label style="display: block;"><input type="checkbox" name="webProg" value="css"> CSS </label>
+			<label style="display: block;"><input type="checkbox" name="webProg" value="JavaScript"> JavaScript </label>
+
+			<form>
+				<select name="cars" style="margin-top: 10px;">
+					<optgroup label="Swedish Cars">
+						<option value="volvo">volvo</option>
+						<option value="saab">Saab</option>
+					</optgroup>
+					<optgroup label="German Cars">
+						<option value="mers">Mercedes</option>
+						<option value="audi">Audi</option>
+					</optgroup>
+				</select>
+
+				<input type="submit" value="submit">
+				<input type="reset" value="reset">
+			</form>
+		</div>
+		<div>
+			<div class="smiley"></div>
+			<div class="left-eye"></div>
+			<div class="right-eye"></div>
+			<div class="mouth"></div>
+		</div>
+	</main>
+	<footer>
+		<p style="font-weight: bold;">&copy; Zoro Corp Inc. Industries Worldwide Global Solutions Group Ltd. Unlimited
+			Enterprises & Co. International Holdings LLC. Development and Innovations Consortium </p>
+	</footer>
+</body>
+
+</html>
