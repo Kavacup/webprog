@@ -1,0 +1,7 @@
+Options Indexes
+IndexOptions FancyIndexing
+AuthType Basic
+AuthName "Restricted Area" 
+AuthUserFile "C:/webprog/vhsecurity/.htpasswd"  
+AuthGroupFile "C:/webprog/vhsecurity/.htgroup"
+Require group specials

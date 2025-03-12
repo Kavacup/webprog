@@ -1,0 +1,54 @@
+[Mon Mar 03 14:23:30.570320 2025] [authn_file:error] [pid 996:tid 1280] (OS 3)Системе не удается найти указанный путь.  : [client 127.0.0.1:52962] AH01620: Could not open password file: D:/webprog/vhsecurity/.htpasswd
+[Mon Mar 03 14:25:11.007184 2025] [authn_file:error] [pid 996:tid 1288] (OS 3)Системе не удается найти указанный путь.  : [client 127.0.0.1:52999] AH01620: Could not open password file: D:/webprog/vhsecurity/.htpasswd
+[Mon Mar 03 14:25:11.962595 2025] [authn_file:error] [pid 996:tid 1296] (OS 3)Системе не удается найти указанный путь.  : [client 127.0.0.1:53002] AH01620: Could not open password file: D:/webprog/vhsecurity/.htpasswd
+[Mon Mar 03 14:25:12.451433 2025] [authn_file:error] [pid 996:tid 1288] (OS 3)Системе не удается найти указанный путь.  : [client 127.0.0.1:53004] AH01620: Could not open password file: D:/webprog/vhsecurity/.htpasswd
+[Mon Mar 03 14:25:15.090250 2025] [authn_file:error] [pid 996:tid 1296] (OS 3)Системе не удается найти указанный путь.  : [client 127.0.0.1:53005] AH01620: Could not open password file: D:/webprog/vhsecurity/.htpasswd
+[Mon Mar 03 14:25:20.704871 2025] [authn_file:error] [pid 996:tid 1288] (OS 3)Системе не удается найти указанный путь.  : [client 127.0.0.1:53006] AH01620: Could not open password file: D:/webprog/vhsecurity/.htpasswd
+[Mon Mar 03 14:25:20.881447 2025] [authn_file:error] [pid 996:tid 1288] (OS 3)Системе не удается найти указанный путь.  : [client 127.0.0.1:53009] AH01620: Could not open password file: D:/webprog/vhsecurity/.htpasswd
+[Mon Mar 03 14:25:22.980920 2025] [authn_file:error] [pid 996:tid 1280] (OS 3)Системе не удается найти указанный путь.  : [client 127.0.0.1:53010] AH01620: Could not open password file: D:/webprog/vhsecurity/.htpasswd
+[Mon Mar 03 14:25:26.079718 2025] [authn_file:error] [pid 996:tid 1288] (OS 3)Системе не удается найти указанный путь.  : [client 127.0.0.1:53011] AH01620: Could not open password file: D:/webprog/vhsecurity/.htpasswd
+[Mon Mar 03 14:25:26.212575 2025] [authn_file:error] [pid 996:tid 1288] (OS 3)Системе не удается найти указанный путь.  : [client 127.0.0.1:53013] AH01620: Could not open password file: D:/webprog/vhsecurity/.htpasswd
+[Mon Mar 03 14:26:16.719269 2025] [authn_file:error] [pid 16488:tid 1416] (OS 3)Системе не удается найти указанный путь.  : [client 127.0.0.1:53029] AH01620: Could not open password file: D:/webprog/vhsecurity/.htpasswd
+[Mon Mar 03 14:26:17.399187 2025] [authn_file:error] [pid 16488:tid 1404] (OS 3)Системе не удается найти указанный путь.  : [client 127.0.0.1:53030] AH01620: Could not open password file: D:/webprog/vhsecurity/.htpasswd
+[Mon Mar 03 14:26:17.872633 2025] [authn_file:error] [pid 16488:tid 1416] (OS 3)Системе не удается найти указанный путь.  : [client 127.0.0.1:53032] AH01620: Could not open password file: D:/webprog/vhsecurity/.htpasswd
+[Mon Mar 03 14:26:18.040528 2025] [authn_file:error] [pid 16488:tid 1404] (OS 3)Системе не удается найти указанный путь.  : [client 127.0.0.1:53039] AH01620: Could not open password file: D:/webprog/vhsecurity/.htpasswd
+[Mon Mar 03 14:26:18.222803 2025] [authn_file:error] [pid 16488:tid 1416] (OS 3)Системе не удается найти указанный путь.  : [client 127.0.0.1:53040] AH01620: Could not open password file: D:/webprog/vhsecurity/.htpasswd
+[Mon Mar 03 14:26:18.389228 2025] [authn_file:error] [pid 16488:tid 1404] (OS 3)Системе не удается найти указанный путь.  : [client 127.0.0.1:53041] AH01620: Could not open password file: D:/webprog/vhsecurity/.htpasswd
+[Mon Mar 03 14:26:23.138424 2025] [authn_file:error] [pid 16488:tid 1416] (OS 3)Системе не удается найти указанный путь.  : [client 127.0.0.1:53042] AH01620: Could not open password file: D:/webprog/vhsecurity/.htpasswd
+[Mon Mar 03 14:26:23.316907 2025] [authn_file:error] [pid 16488:tid 1416] (OS 3)Системе не удается найти указанный путь.  : [client 127.0.0.1:53045] AH01620: Could not open password file: D:/webprog/vhsecurity/.htpasswd
+[Mon Mar 03 14:29:42.828424 2025] [authn_file:error] [pid 10668:tid 1296] (OS 3)Системе не удается найти указанный путь.  : [client 127.0.0.1:53151] AH01620: Could not open password file: D:/webprog/vhsecurity/.htpasswd
+[Mon Mar 03 14:29:43.576053 2025] [authn_file:error] [pid 10668:tid 1288] (OS 3)Системе не удается найти указанный путь.  : [client 127.0.0.1:53152] AH01620: Could not open password file: D:/webprog/vhsecurity/.htpasswd
+[Mon Mar 03 14:32:18.701147 2025] [authn_file:error] [pid 10596:tid 1292] (OS 3)Системе не удается найти указанный путь.  : [client 127.0.0.1:53200] AH01620: Could not open password file: D:/webprog/vhsecurity/.htpasswd
+[Mon Mar 03 14:32:21.838411 2025] [authn_file:error] [pid 10596:tid 1292] (OS 3)Системе не удается найти указанный путь.  : [client 127.0.0.1:53201] AH01620: Could not open password file: D:/webprog/vhsecurity/.htpasswd
+[Mon Mar 03 14:32:22.669159 2025] [authn_file:error] [pid 10596:tid 1292] (OS 3)Системе не удается найти указанный путь.  : [client 127.0.0.1:53202] AH01620: Could not open password file: D:/webprog/vhsecurity/.htpasswd
+[Mon Mar 03 14:32:29.181039 2025] [authn_file:error] [pid 10596:tid 1284] (OS 3)Системе не удается найти указанный путь.  : [client 127.0.0.1:53205] AH01620: Could not open password file: D:/webprog/vhsecurity/.htpasswd
+[Mon Mar 03 14:32:36.985765 2025] [authn_file:error] [pid 10596:tid 1292] (OS 3)Системе не удается найти указанный путь.  : [client 127.0.0.1:53203] AH01620: Could not open password file: D:/webprog/vhsecurity/.htpasswd
+[Mon Mar 03 14:32:37.189135 2025] [authn_file:error] [pid 10596:tid 1292] (OS 3)Системе не удается найти указанный путь.  : [client 127.0.0.1:53209] AH01620: Could not open password file: D:/webprog/vhsecurity/.htpasswd
+[Mon Mar 03 14:32:38.941991 2025] [authn_file:error] [pid 10596:tid 1292] (OS 3)Системе не удается найти указанный путь.  : [client 127.0.0.1:53210] AH01620: Could not open password file: D:/webprog/vhsecurity/.htpasswd
+[Mon Mar 03 14:32:39.219618 2025] [authn_file:error] [pid 10596:tid 1292] (OS 3)Системе не удается найти указанный путь.  : [client 127.0.0.1:53211] AH01620: Could not open password file: D:/webprog/vhsecurity/.htpasswd
+[Mon Mar 03 14:52:31.905787 2025] [authn_file:error] [pid 10596:tid 1284] (OS 3)Системе не удается найти указанный путь.  : [client ::1:53393] AH01620: Could not open password file: D:/webprog/vhsecurity/.htpasswd
+[Mon Mar 03 14:52:31.983933 2025] [authn_file:error] [pid 10596:tid 1300] (OS 3)Системе не удается найти указанный путь.  : [client ::1:53402] AH01620: Could not open password file: D:/webprog/vhsecurity/.htpasswd, referer: http://localhost:8081/
+[Mon Mar 03 15:00:10.855795 2025] [authn_file:error] [pid 10596:tid 1300] (OS 3)Системе не удается найти указанный путь.  : [client ::1:53493] AH01620: Could not open password file: D:/webprog/vhsecurity/.htpasswd
+[Mon Mar 03 15:00:10.904800 2025] [authn_file:error] [pid 18416:tid 1272] (OS 3)Системе не удается найти указанный путь.  : [client ::1:53510] AH01620: Could not open password file: D:/webprog/vhsecurity/.htpasswd, referer: http://localhost:8081/
+[Mon Mar 03 15:02:49.486406 2025] [authn_file:error] [pid 18416:tid 1284] (OS 3)Системе не удается найти указанный путь.  : [client ::1:53643] AH01620: Could not open password file: D:/webprog/vhsecurity/.htpasswd
+[Mon Mar 03 15:02:49.590408 2025] [authn_file:error] [pid 18416:tid 1272] (OS 3)Системе не удается найти указанный путь.  : [client ::1:53645] AH01620: Could not open password file: D:/webprog/vhsecurity/.htpasswd, referer: http://localhost:8081/
+[Mon Mar 03 16:01:54.320384 2025] [authz_core:error] [pid 396:tid 1288] [client ::1:55430] AH01631: user user1: authorization failure for "/": 
+[Mon Mar 03 16:02:02.985055 2025] [authz_core:error] [pid 396:tid 1296] [client ::1:55435] AH01631: user owner: authorization failure for "/": 
+[Mon Mar 03 16:02:07.517760 2025] [authz_core:error] [pid 396:tid 1296] [client ::1:55435] AH01631: user owner: authorization failure for "/": 
+[Mon Mar 03 16:02:53.353729 2025] [authz_core:error] [pid 21968:tid 1300] [client ::1:55445] AH01631: user owner: authorization failure for "/": 
+[Mon Mar 03 16:02:57.745720 2025] [authz_core:error] [pid 21968:tid 1300] [client ::1:55445] AH01631: user owner: authorization failure for "/": 
+[Mon Mar 03 16:03:13.829788 2025] [authz_core:error] [pid 21968:tid 1288] [client ::1:55456] AH01631: user owner: authorization failure for "/": 
+[Mon Mar 03 16:03:24.613626 2025] [auth_basic:error] [pid 21968:tid 1300] [client ::1:55464] AH01618: user Owner not found: /
+[Mon Mar 03 16:29:15.091429 2025] [authz_core:error] [pid 1860:tid 1292] [client ::1:55765] AH01631: user user2: authorization failure for "/": 
+[Mon Mar 03 16:30:06.038074 2025] [authz_core:error] [pid 1860:tid 1300] [client ::1:55805] AH01630: client denied by server configuration: C:/webprog/vh1/forbidden
+[Mon Mar 03 16:31:17.153364 2025] [authz_core:error] [pid 1860:tid 1300] [client ::1:55820] AH01631: user user1: authorization failure for "/onlySpecial": 
+[Mon Mar 03 16:31:22.137931 2025] [authz_core:error] [pid 1860:tid 1300] [client ::1:55820] AH01631: user user1: authorization failure for "/onlySpecial": 
+[Mon Mar 03 16:31:29.274513 2025] [authz_core:error] [pid 1860:tid 1284] [client ::1:55821] AH01631: user owner: authorization failure for "/onlySpecial": 
+[Mon Mar 03 16:31:55.199583 2025] [authz_core:error] [pid 1860:tid 1292] [client ::1:55827] AH01631: user user1: authorization failure for "/onlySpecial": 
+[Mon Mar 03 16:32:00.726602 2025] [authz_core:error] [pid 1860:tid 1284] [client ::1:55832] AH01631: user user1: authorization failure for "/onlySpecial": 
+[Mon Mar 03 16:32:21.586021 2025] [authz_core:error] [pid 1860:tid 1292] [client ::1:55833] AH01631: user user2: authorization failure for "/": 
+[Mon Mar 03 16:32:26.441122 2025] [authz_core:error] [pid 1860:tid 1292] [client ::1:55833] AH01631: user user2: authorization failure for "/": 
+[Mon Mar 03 19:54:43.111483 2025] [auth_basic:error] [pid 11808:tid 1288] [client ::1:59786] AH01617: user owner: authentication failure for "/": Password Mismatch
+[Mon Mar 03 19:54:51.674563 2025] [authz_core:error] [pid 11808:tid 1288] [client ::1:59786] AH01630: client denied by server configuration: C:/webprog/vh1/forbidden
+[Mon Mar 03 19:55:01.655779 2025] [authz_core:error] [pid 11808:tid 1288] [client ::1:59790] AH01631: user owner: authorization failure for "/onlySpecial/": 
+[Mon Mar 03 19:55:07.352302 2025] [authz_core:error] [pid 11808:tid 1288] [client ::1:59791] AH01631: user user1: authorization failure for "/onlySpecial/": 
