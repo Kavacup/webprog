@@ -3,6 +3,8 @@
 
 <head>
 	<meta charset="UTF-8">
+	<!-- for phones etc. -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!--Создаем заголовок-->
 	<title>Laba one</title>
 	<link rel="stylesheet" href="styles.css">
@@ -17,6 +19,7 @@
 		input[type="reset"] {
 			background-color: blue;
 			color: white;
+			/* ease used by default */
 			transition: background-color 0.3s ease, transform 0.3s ease;
 		}
 
@@ -28,6 +31,11 @@
 
 		th {
 			border: 1px solid black;
+		}
+
+		td {
+			border: 2px dotted rebeccapurple;
+			border-radius: 10%;
 		}
 	</style>
 
@@ -65,6 +73,7 @@
 				Tag Pre 
 				test
 			</pre>
+			<!-- datetime doesn't render smth specific, but used in calendars, search engines etc.-->
 			<p>Open from <time datetime="10:00">10:00</time> to <time datetime="21:00">21:00</time> every weekday.</p>
 		</div>
 
@@ -76,11 +85,15 @@
 
 		<!--Ссылка на разницу span и div-->
 		<a href="test.html">Click!<br></a>
-		<a href="#top">Up</a>
+		<a href="#top">Up</a><br>
+		<!-- found on internet -->
+		<button onclick='window.scrollTo({top: 0, behavior: "smooth"});'>
+			Scroll to Top
+		</button>
 
 		<!--Изображения-->
 		<figure>
-			<img src="sth.jpg">
+			<img src="sth.jpg" alt="Some image">
 			<figcaption>Figcaption</figcaption>
 		</figure>
 
@@ -99,31 +112,39 @@
 					<th colspan="2">2 & 3</th>
 				</tr>
 				<tr>
-					<th>4</th>
-					<th rowspan="2">6 & 9</th>
-					<th>7</th>
+					<td>4</td>
+					<td rowspan="2">6 & 9</td>
+					<td>7</td>
 				</tr>
 				<tr>
-					<th>5</th>
-					<th>8</th>
+					<td>5</td>
+					<td>8</td>
 				</tr>
 			</table>
 		</div>
 
 		<!--Форма-->
 		<div class="Form" style="margin-top: 20px;">
-			<label style="display: block;"><input type="checkbox" name="webProg" value="html"> HTML </label>
-			<label style="display: block;"><input type="checkbox" name="webProg" value="css"> CSS </label>
-			<label style="display: block;"><input type="checkbox" name="webProg" value="JavaScript"> JavaScript </label>
+			<!-- call prevents scrolling -->
+			<form action="javascript:void(0);">
+				<label style="display: block;">
+					<input type="checkbox" name="webProg" value="html"> HTML
+				</label>
+				<label style="display: block;">
+					<input type="checkbox" name="webProg" value="css"> CSS
+				</label>
+				<!-- classic format -->
+				<input type="checkbox" id="webProgJS" name="webProg" value="JavaScript">
+				<label for="webProgJS">JavaScript</label><br><br>
 
-			<form>
-				<select name="cars" style="margin-top: 10px;">
+				<label for="cars" style="display: block;font-style: normal;">Choose a car:</label>
+				<select id="cars" name="cars" style="margin-top: 10px;">
 					<optgroup label="Swedish Cars">
-						<option value="volvo">volvo</option>
+						<option value="volvo">Volvo</option>
 						<option value="saab">Saab</option>
 					</optgroup>
 					<optgroup label="German Cars">
-						<option value="mers">Mercedes</option>
+						<option value="mercedes">Mercedes</option>
 						<option value="audi">Audi</option>
 					</optgroup>
 				</select>
