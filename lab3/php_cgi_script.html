@@ -1,0 +1,41 @@
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<title> CGI скрипт-тест </title>
+	</head>
+	<body>
+		<h1>Тест на знание PHP (начальный уровень)</h1>
+		<hr>
+		<form action=http://localhost/script_test_php.php method=get>
+			<label> Вопрос 1: Что выведет следующий код?<br><span style="color: blue; font-weight: bold;">echo 5 + "5 текст";</span></label><br><br>
+			<input type="radio" id="opt1" name="choice" value="1">
+			<label for="opt1"> 10 </label><br>
+			<input type="radio" id="opt2" name="choice" value="3">
+			<label for="opt2"> 55 </label><br>
+			<input type="radio" id="opt3" name="choice" value="5">
+			<label for="opt3"> Ошибка выполнения </label><br>
+			<hr>
+			
+			<label> Вопрос 2: Какие из следующих переменных являются корректными в PHP?</label><br><br>
+			<input type="checkbox" id="opt1check" name="checkOne[]" value="1">
+			<label for="opt1check"> $_var </label><br>
+			<input type="checkbox" id="opt2check" name="checkOne[]" value="3">
+			<label for="opt2check"> $2value </label><br>
+			<input type="checkbox" id="opt3check" name="checkOne[]" value="5">
+			<label for="opt3check"> $name_1 </label><br>
+			<hr>
+			
+			<label> Вопрос 3: Какой способ используется для создания массива в PHP?</label><br><br>
+			<input type="checkbox" id="opt4check" name="checkTwo[]" value="1">
+			<label for="opt4check"> array(1, 2, 3); </label><br>
+			<input type="checkbox" id="opt5check" name="checkTwo[]" value="3">
+			<label for="opt5check"> [1 => "one", 2 => "two"]; </label><br>
+			<input type="checkbox" id="opt6check" name="checkTwo[]" value="5">
+			<label for="opt6check"> new Array(1, 2, 3); </label><br>
+			<hr>
+			
+			<label> Сдать тест? </label>
+			<input type="submit" value="Да">
+		</form>
+	</body>
+</html>
