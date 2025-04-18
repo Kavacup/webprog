@@ -1,11 +1,19 @@
 <?php
 date_default_timezone_set('Asia/Novosibirsk');
 
-// Получение данных
-$q1 = $_GET['choice'] ?? ' ';
-$q2 = $_GET['checkOne'] ?? [];
-$q3 = $_GET['checkTwo'] ?? [];
+$method=$_SERVER['REQUEST_METHOD'];
 
+// Получение данных
+if ($method === 'POST') {
+    $q1 = $_POST['choice'] ?? ' ';
+    $q2 = $_POST['checkOne'] ?? [];
+    $q3 = $_POST['checkTwo'] ?? [];
+}
+else if ($method === 'GET') {
+    $q1 = $_GET['choice'] ?? ' ';
+    $q2 = $_GET['checkOne'] ?? [];
+    $q3 = $_GET['checkTwo'] ?? [];
+}
 // Проверка правильных ответов
 $score = 0;
 $results = [];
